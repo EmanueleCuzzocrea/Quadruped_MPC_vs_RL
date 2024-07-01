@@ -1,0 +1,7 @@
+<library path="lib/libsrv_client_plugin">
+  <class name="srv_client_plugin/SrvClientPlugin" type="srv_client_plugin::SrvClientPlugin" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      A global planner plugin that creates service request to get a plan and forwards the response to the move_base global planner module.
+    </description>
+  </class>
+</library>

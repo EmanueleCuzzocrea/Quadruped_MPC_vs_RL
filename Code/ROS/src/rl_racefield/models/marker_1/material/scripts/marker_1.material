@@ -1,0 +1,14 @@
+material marker_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ar_tag_1.png
+			}
+		}
+	}
+}
+

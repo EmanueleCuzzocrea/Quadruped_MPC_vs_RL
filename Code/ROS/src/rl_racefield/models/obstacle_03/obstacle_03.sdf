@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="obstacle_03">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+            <mesh>
+              <uri>
+                model://obstacle_03/mesh/ostacolo_03.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+              <uri>
+                model://obstacle_03/mesh/ostacolo_03.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+        <material> <!-- color violet -->
+          <ambient>172 68 217 1</ambient>
+          <diffuse>172 68 217 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material> 
+      </visual>
+    </link>
+  </model>
+</sdf>

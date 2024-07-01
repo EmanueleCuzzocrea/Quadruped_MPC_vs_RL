@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="roof">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+            <mesh>
+              <uri>
+                model://roof/mesh/roof.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+              <uri>
+                model://roof/mesh/roof.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+        <material>Gazebo/DarkGray</material> 
+      </visual>
+    </link>
+  </model>
+</sdf>

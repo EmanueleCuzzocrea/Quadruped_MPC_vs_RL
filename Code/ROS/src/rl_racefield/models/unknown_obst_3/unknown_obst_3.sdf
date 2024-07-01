@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="unknown_obst_3">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+            <mesh>
+              <uri>
+                model://unknown_obst_3/mesh/unknown_obst_wall.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+              <uri>
+                model://unknown_obst_3/mesh/unknown_obst_wall.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+        <material> <!-- color red -->
+          <ambient>1 0 0 1</ambient>
+          <diffuse>1 0 0 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material> 
+      </visual>
+    </link>
+  </model>
+</sdf>

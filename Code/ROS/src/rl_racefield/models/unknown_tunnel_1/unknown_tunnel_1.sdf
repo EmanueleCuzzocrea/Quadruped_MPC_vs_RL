@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="unknown_tunnel_1">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+            <mesh>
+              <uri>
+                model://unknown_tunnel_1/mesh/tunnel_long.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+              <uri>
+                model://unknown_tunnel_1/mesh/tunnel_long.stl
+              </uri>
+              <scale>
+                0.001 0.001 0.001
+              </scale>
+            </mesh>
+        </geometry>
+        <material> <!-- color white -->
+          <ambient>231 245 243 1</ambient>
+          <diffuse>231 245 243 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material> 
+      </visual>
+    </link>
+  </model>
+</sdf>

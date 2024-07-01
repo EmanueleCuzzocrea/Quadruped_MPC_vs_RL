@@ -1,0 +1,14 @@
+material marker_115
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture aruco-115.png
+			}
+		}
+	}
+}
+

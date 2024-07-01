@@ -1,0 +1,42 @@
+
+
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="marker_0">
+    <static>true</static>
+    <link name="marker">
+      <gravity>false</gravity>
+      <visual name="tag">
+        <geometry>
+          <box>
+            <size>0.30 0.30 0.002</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://marker_0/material/scripts</uri>
+            <uri>model://marker_0/material/textures</uri>
+            <name>marker_0</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="support">
+        <geometry>
+          <box>
+            <size>0.32 0.32 0.001</size>
+          </box>
+        </geometry>
+        <material>Gazebo/White</material> 
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.32 0.32 0.001</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
+
