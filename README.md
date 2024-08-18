@@ -1,13 +1,13 @@
 # Quadruped Control
 This technical report presents an analysis regarding the results of model-based and data-driven
-control approaches on legged robots. In particular, an MPC approach is analyzed in the former
-case, while a Deep Reinforcement Learning technique based on the Reward Machines is developed
+control approaches on legged robots. In particular, an **MPC** approach is analyzed in the former
+case, while a **Deep Reinforcement Learning** technique based on the **Reward Machines** is developed
 in the latter. The robot behavior is tested using different gaits with both the approaches.
-Moreover, exploiting the model-based control, an RRT planning algorithm is implemented as
+Moreover, exploiting the model-based control, an **RRT planning algorithm** is implemented as
 a global planner to see how the robot moves in an environment with obstacles.
 
-All the results are obtained in ROS using Gazebo and Rviz environments for the model-based
-approach and the RaiSim platform for the data-driven one. In the first case, the simulation is
+All the results are obtained in **ROS** using Gazebo and Rviz environments for the model-based
+approach and the **RaiSim** platform for the data-driven one. In the first case, the simulation is
 performed with the Unitree A1 Robot Dog, while in the second with the Unitree Aliengo Robot
 Dog.
 
