@@ -20,6 +20,7 @@ Using the MPC controller, the following gaits were implemented:
 - Pace
 - Crawl
 - Gallop
+
 In the following, video related to the trot, bound and pace gait and presented.
 
 ### Trot gait
