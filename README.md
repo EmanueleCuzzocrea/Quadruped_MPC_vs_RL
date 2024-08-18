@@ -3,8 +3,9 @@ This technical report presents an analysis regarding the results of model-based 
 control approaches on legged robots. In particular, an MPC approach is analyzed in the former
 case, while a Deep Reinforcement Learning technique based on the Reward Machines is developed
 in the latter. The robot behavior is tested using different gaits with both the approaches.
-Moreover, exploiting the model-based control, an RRT planning algorithm is implemented
-to see how the robot moves in an environment with obstacles.
+Moreover, exploiting the model-based control, an RRT planning algorithm is implemented as
+a global planner to see how the robot moves in an environment with obstacles.
+
 All the results are obtained in ROS using Gazebo and Rviz environments for the model-based
 approach and the RaiSim platform for the data-driven one. In the first case, the simulation is
 performed with the Unitree A1 Robot Dog, while in the second with the Unitree Aliengo Robot
@@ -43,17 +44,13 @@ https://github.com/user-attachments/assets/50fa4426-905c-4d2f-97b7-c88f8edc22b1
 https://github.com/user-attachments/assets/02fcb74e-cac6-4244-8bf4-154ab327787c
 
 ## Path planning
-Utilizing this controller, an RRT was implemented and tested as a global planner.
 
 https://github.com/user-attachments/assets/72e6b320-07b7-4a51-a96c-78bf76f5c43b
 
 https://github.com/user-attachments/assets/85753b0a-225a-4a8b-a0a0-3d644bfe11f7
 
 ## RL controller
-All training sessions were carried out using the [RaiSim](https://raisim.com/) platform.
-Moreover, training the robot to perform a specific gait was made possible through the use of Reward Machines.
-
-The following gaits were implemented:
+Using the RL controller, the following gaits were implemented:
 - Trot
 - Bound
 - Pace
@@ -76,4 +73,4 @@ By using a Python listener, it was possible to run simulations while changing th
 https://github.com/user-attachments/assets/b849906d-f83c-4647-829f-3c34d3770de7
 
 
-Thank you
+Thank you!
