@@ -68,7 +68,7 @@ https://github.com/user-attachments/assets/a64bd6e6-7c4e-4fb7-b994-fb73a63f55e9
 https://github.com/user-attachments/assets/8a93717c-bd84-4050-bb7f-6f4fca2d3318
 
 ### Multiple gaits
-By using a Python listener, it was possible to run simulations while changing the gait at runtime (by switching the neural network).
+By using a Python listener, it was possible to run simulations while changing the gait at runtime, i.e., by switching the neural network.
 
 https://github.com/user-attachments/assets/b849906d-f83c-4647-829f-3c34d3770de7
 
