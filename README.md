@@ -21,7 +21,6 @@ Using the MPC controller, the following gaits were implemented:
 - Crawl
 - Gallop
 
-In the following, video related to the trot, bound and pace gait and presented.
 
 ### Trot gait
 
@@ -36,15 +35,16 @@ https://github.com/user-attachments/assets/50fa4426-905c-4d2f-97b7-c88f8edc22b1
 https://github.com/user-attachments/assets/02fcb74e-cac6-4244-8bf4-154ab327787c
 
 ## Path planning
-Using such controller, an RRT as a global planner has been implemented and tested.
+Utilizing this controller, an RRT was implemented and tested as a global planner.
 
 https://github.com/user-attachments/assets/72e6b320-07b7-4a51-a96c-78bf76f5c43b
 
 https://github.com/user-attachments/assets/85753b0a-225a-4a8b-a0a0-3d644bfe11f7
 
 ## RL controller
-All training sessions were carried out by resorting to the [RaiSim platform](https://raisim.com/).
-Training the robot to perform a specific gait was made possible through the use of Reward Machines.
+All training sessions were carried out using the [RaiSim](https://raisim.com/) platform.
+Moreover, training the robot to perform a specific gait was made possible through the use of Reward Machines.
+
 The following gaits were implemented:
 - Trot
 - Bound
