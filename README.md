@@ -1,4 +1,6 @@
 # Quadruped MPC vs RL
+
+## Overview
 This technical report presents an analysis regarding the results of model-based and data-driven
 control approaches on legged robots. In particular, an **MPC** approach is analyzed in the former
 case, while a **Deep Reinforcement Learning** technique based on the **Reward Machines** is developed
